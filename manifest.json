@@ -1,0 +1,12 @@
+{
+    "name": "ChromeExtensionTest",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "description": "Sample",
+    "content_scripts": [{
+        "matches": [ "https://ukadon.shillest.net/*" ],
+        "js": [ "content.js" ],
+        "css": [ "style.css" ]
+    }]
+}
+

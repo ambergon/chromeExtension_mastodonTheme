@@ -1,0 +1,132 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
+/*
+    --all-color         : #24408f;
+    --scrollbar-color   : #8600BC;
+    --scrollbar-color   : #018008;
+    --menu-color        : #6383DB;
+ * */
+
+
+:root {
+    --all-color         : #002E1F;
+    --menu-color        : #013205;
+    --scrollbar-color   : #015C08;
+}
+
+
+
+
+
+
+
+
+
+/*全体*/
+body {
+    background: var(--all-color) !important;
+}
+
+/*スクロールバー*/
+::-webkit-scrollbar-thumb {
+    border-radius: 10px !important;
+    background: var(--scrollbar-color) !important;
+    /*background: #c40053 !important;*/
+}
+
+
+/*入力枠メニュー*/
+.drawer__header {
+    background: var(--menu-color) !important;
+}
+
+/*メニューアイコンカラー*/
+/*
+.drawer__tab {
+    color: var(--icon-color) !important;
+}*/
+
+
+/*検索窓*/
+.search__input {
+    /*背景*/
+    /*文字色*/
+    /*
+    background: var(--menu-color) !important;
+    color: var(--icon-color) !important;
+    */
+}
+
+/*プロフィール*/
+.drawer__inner {
+    /*背景*/
+    background: var(--menu-color) !important;
+}
+
+/*プロフィール余白*/
+.drawer__inner__mastodon {
+    background: var(--menu-color) !important;
+}
+
+
+/**/
+/**/
+/**/
+/**/
+/**/
+
+
+
+
+/**/
+
+
+/**/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
