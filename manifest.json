@@ -1,8 +1,8 @@
 {
-    "name": "ChromeExtensionTest",
+    "name": "chromeExtension_mastodonTheme",
     "version": "1.0.0",
     "manifest_version": 3,
-    "description": "Sample",
+    "description": "マストドンの色合いを変えて目の疲れを軽減することを目的とする。",
     "content_scripts": [{
         "matches": [ "https://ukadon.shillest.net/*" ],
         "js": [ "content.js" ],
