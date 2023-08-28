@@ -28,7 +28,7 @@
 ```
 /* 絵文字周りの使用を便利にする。 */
 /*スタンプ一覧を表示する枠の大きさを拡大。*/
-/*1000px位にすると明らかに使いやすくなる。 */
+/*999px位にすると明らかに使いやすくなる。 */
 section.emoji-mart-light {
     width:499px !important
 }
@@ -45,6 +45,12 @@ button.emoji-mart-emoji > img {
     height: 40px !important;
 }
 ```
+
+
+#### 実際の表示サンプル
+デフォルト設定にスタンプ表示枠を999pxに変更したもの。<br>
+[うかどん](https://ukadon.shillest.net/deck/@ambergon/110932116645228172)<br>
+
 
 
 
