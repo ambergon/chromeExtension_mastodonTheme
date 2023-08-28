@@ -87,17 +87,18 @@ body {
 /**/
 
 /* 絵文字周りの使用を便利にする。 */
-/*枠の大きさ。*/
+/*スタンプ一覧を表示する枠の大きさを拡大。*/
 section.emoji-mart-light {
     width:499px !important
 }
 
-/*スクロール枠を適当に調整。*/
+/*スクロール枠の高さを適当に調整。*/
 .emoji-mart-scroll {
     height:470px !important;
     max-height:80vh !important;
 }
-/*絵文字アイコン*/
+
+/*一覧の絵文字アイコンを大きく表示する。*/
 button.emoji-mart-emoji > img {
     width: 40px  !important;
     height: 40px !important;

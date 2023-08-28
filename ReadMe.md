@@ -1,13 +1,13 @@
 # chromeExtension_mastodonTheme
-マストドンの色合いを変えるChrome拡張です。
-私はukadonのユーザなのでそこでのみ適用されるようにしています。
-他鯖の方はmanifest.jsonの`"matches": [ "https://ukadon.shillest.net/*" ],`を良い感じに書き換えてください。
-動作はユーザー設定 -> 外観 -> 上級者向けUIを有効にする。を使用した状態で確認しています。
+マストドンの色合いを変えるChrome拡張です。<br>
+私はukadonのユーザなのでそこでのみ適用されるようにしています。<br>
+他鯖の方はmanifest.jsonの`"matches": [ "https://ukadon.shillest.net/*" ],`を良い感じに書き換えてください。<br>
+動作はユーザー設定 -> 外観 -> 上級者向けUIを有効にする。を使用した状態で確認しています。<br>
 
 
 ## Usage
 #### color
-色合いを設定するにはstyle.cssの中を適当に書き換えてください。
+色合いを設定するにはstyle.cssの中を適当に書き換えてください。<br>
 ```
 :root {
 /**/
@@ -23,13 +23,32 @@
 ```
 
 #### emoji
-絵文字入力の枠と選択する絵文字の表示を大きくしています。
+絵文字入力の枠と選択する絵文字の表示を大きくしています。<br>
 適当に変更してください。
+```
+/* 絵文字周りの使用を便利にする。 */
+/*スタンプ一覧を表示する枠の大きさを拡大。*/
+section.emoji-mart-light {
+    width:499px !important
+}
+
+/*スクロール枠の高さを適当に調整。*/
+.emoji-mart-scroll {
+    height:470px !important;
+    max-height:80vh !important;
+}
+
+/*一覧の絵文字アイコンを大きく表示する。*/
+button.emoji-mart-emoji > img {
+    width: 40px  !important;
+    height: 40px !important;
+}
+```
 
 
 
 ## Installation
-[Chrome拡張](chrome://extensions/)下記のサイトでデベロッパーモードを有効化し、 パッケージ化されていない拡張機能を読み込む -> 解凍したこのフォルダを読み込ませてください。
+[Chrome拡張](chrome://extensions/)下記のページでデベロッパーモードを有効化し、 パッケージ化されていない拡張機能を読み込む -> 解凍したこのフォルダを読み込ませてください。
 
 
 ## License
