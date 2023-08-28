@@ -55,7 +55,7 @@ button.emoji-mart-emoji > img {
 
 
 ## Installation
-[Chrome拡張](chrome://extensions/)下記のページでデベロッパーモードを有効化し、 パッケージ化されていない拡張機能を読み込む -> 解凍したこのフォルダを読み込ませてください。
+[chrome://extensions/](chrome://extensions/)下記のページでデベロッパーモードを有効化し、 パッケージ化されていない拡張機能を読み込む -> 解凍したこのフォルダを読み込ませてください。
 
 
 ## License
