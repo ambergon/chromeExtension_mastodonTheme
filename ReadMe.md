@@ -35,7 +35,7 @@
     /* パレット内のスタンプの大きさ */
     --ColorPalette-StampSize : 40px;
     /* パレットを展開する位置(左上基準 X,Y ) */
-    --ColorPalette-Translate : translate( 20% , 10% ) ;
+    --ColorPalette-Translate : translate( 10px , 10px ) ;
 ```
 
 
