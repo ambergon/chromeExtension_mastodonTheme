@@ -41,7 +41,7 @@
 
 #### 実際の表示サンプル
 デフォルト設定にスタンプ表示枠を999pxに変更したもの。<br>
-[うかどん](https://ukadon.shillest.net/deck/@ambergon/110932116645228172)<br>
+[うかどん](https://ukadon.shillest.net/deck/@ambergon/110972989231556631)<br>
 
 
 
