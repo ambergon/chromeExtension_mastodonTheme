@@ -3,33 +3,41 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 /**/
 :root {
+    /*    色設定    */
+    /* 背景色 */
     --all-color         : #002E1F;
+    /* 入力欄周り */
     --menu-color        : #013205;
+    /* スクロールバーのスライダー */
     --scrollbar-color   : #015C08;
+    /* 投稿文字色 */
     --article-color     : #dcdcdc;
+
+
+    /*    絵文字パレット設定    */
+    /* パレットの幅 */
+    --ColorPalette-Width     : 499px;
+    /* パレットの高さ */
+    --ColorPalette-Height    : 470px;
+    --ColorPalette-MaxHeight : 80vh;
+    /* パレット内のスタンプの大きさ */
+    --ColorPalette-StampSize : 40px;
+    /* パレットを展開する位置(左上基準 X,Y ) */
+    --ColorPalette-Translate : translate( 20% , 10% ) ;
+
 }
 
 
 
-
+/* {{{ 色設定周り */
 
 /*全体*/
 body {
     background: var(--all-color) !important;
 }
+
 
 /*スクロールバー*/
 ::-webkit-scrollbar-thumb {
@@ -68,68 +76,44 @@ body {
     */
 }
 
+
 /*プロフィール*/
 .drawer__inner {
     /*背景*/
     background: var(--menu-color) !important;
 }
 
+
 /*プロフィール余白*/
 .drawer__inner__mastodon {
     background: var(--menu-color) !important;
 }
+/* 色設定周りここまで }}}*/
 
-
-/**/
-/**/
-/**/
-/**/
-/**/
-
-/* 絵文字周りの使用を便利にする。 */
-/*スタンプ一覧を表示する枠の大きさを拡大。*/
+/* 絵文字周りの使用を便利にする。 {{{*/
+/*枠の大きさ。*/
 section.emoji-mart-light {
-    width:499px !important
+    width: var(--ColorPalette-Width) !important
 }
 
-/*スクロール枠の高さを適当に調整。*/
+
+/*スクロール枠を適当に調整。*/
 .emoji-mart-scroll {
-    height:470px !important;
-    max-height:80vh !important;
+    height     : var(--ColorPalette-Height)    !important;
+    max-height : var(--ColorPalette-MaxHeight) !important;
 }
 
-/*一覧の絵文字アイコンを大きく表示する。*/
+
+/*絵文字アイコン*/
 button.emoji-mart-emoji > img {
-    width: 40px  !important;
-    height: 40px !important;
+    width : var(--ColorPalette-StampSize) !important;
+    height: var(--ColorPalette-StampSize) !important;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.emoji-picker-main {
+    transform: var(--ColorPalette-Translate) !important;
+    /* transform: translateY( 0% ) !important; */
+}
+/* 絵文字パレットここまで }}} */
 

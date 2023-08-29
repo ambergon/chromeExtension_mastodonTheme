@@ -8,42 +8,34 @@
 ## Usage
 #### color
 色合いを設定するにはstyle.cssの中を適当に書き換えてください。<br>
+また、ベースの色はマストドン本体機能のテーマをご使用ください。<br>
 ```
-:root {
-/**/
-    /* 全体の背景 */
+    /*    色設定    */
+    /* 背景色 */
     --all-color         : #002E1F;
-    /* 左手側入力欄周りの色 */
+    /* 入力欄周り */
     --menu-color        : #013205;
-    /* スクロールバー スライダーの色 。*/
+    /* スクロールバーのスライダー */
     --scrollbar-color   : #015C08;
     /* 投稿文字色 */
     --article-color     : #dcdcdc;
-}
 ```
 
 #### emoji
-絵文字入力の枠と選択する絵文字の表示を大きくしています。<br>
-適当に変更してください。
+スタンプパレットとパレットに表示されるスタンプの表示を大きくしています。<br>
+適当に変更してください。<br>
+パレットの幅は999px位がおすすめです。<br>
 ```
-/* 絵文字周りの使用を便利にする。 */
-/*スタンプ一覧を表示する枠の大きさを拡大。*/
-/*999px位にすると明らかに使いやすくなる。 */
-section.emoji-mart-light {
-    width:499px !important
-}
-
-/*スクロール枠の高さを適当に調整。*/
-.emoji-mart-scroll {
-    height:470px !important;
-    max-height:80vh !important;
-}
-
-/*一覧の絵文字アイコンを大きく表示する。*/
-button.emoji-mart-emoji > img {
-    width: 40px  !important;
-    height: 40px !important;
-}
+    /*    絵文字パレット設定    */
+    /* パレットの幅 */
+    --ColorPalette-Width     : 499px;
+    /* パレットの高さ */
+    --ColorPalette-Height    : 470px;
+    --ColorPalette-MaxHeight : 80vh;
+    /* パレット内のスタンプの大きさ */
+    --ColorPalette-StampSize : 40px;
+    /* パレットを展開する位置(左上基準 X,Y ) */
+    --ColorPalette-Translate : translate( 20% , 10% ) ;
 ```
 
 
